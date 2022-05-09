@@ -9,20 +9,16 @@ public class Exercicio1 {
 		Scanner ler = new Scanner(System.in);
 		
 		
-		int contador=2, maior, numero;
+		int cont=0, maior=0, numero;
 		
-		System.out.println("Digite o número 1: ");
-		numero=ler.nextInt();
-		maior=numero;
-		
-		while(contador <=32) {
-			System.out.println("Digite o número " + contador + ":");
+		for(int x=1;x<=3;x++) {
+			System.out.println("Digite o número " + x + ":");
 			numero=ler.nextInt();
 		
-     		if(numero < maior) { 
+     		if(numero > maior) { 
 			maior=numero;		
 		}
-		contador++;
+		cont++;
 		}
 		System.out.println("O numero maior é: "+ maior);
 	
