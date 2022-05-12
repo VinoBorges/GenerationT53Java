@@ -13,9 +13,12 @@ public class Ex1Animal {
 	
 	public void emitirSom()
 	{
-		System.out.println("O som do animal é: "+this.somDoAnimal);
+		System.out.println("O animal está emitindo som "+this.somDoAnimal);
+	}	
+	
+	public void sobreOAnimal()
+	{
+		System.out.println("O nome do animal é: "+this.nome);
+		System.out.println("A idade do animal é: "+this.idade);
 	}
-	
-	
-	
 }

@@ -11,7 +11,7 @@ public class Ex1Cachorro extends Ex1Animal {
 	
 	public void correr()
 	{
-		System.out.println("O cachorro esta correndo..");
+		System.out.println("O cachorro esta correndo...");
 	}
 
 }
