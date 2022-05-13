@@ -11,7 +11,19 @@ public class Ex1Cachorro extends Ex1Animal {
 	
 	public void correr()
 	{
-		System.out.println("O cachorro esta correndo...");
+		System.out.println(this.nome+ " esta correndo...");
 	}
-
+	@Override
+	public void emitirSom()
+	{
+		System.out.println(this.nome+ " está latindo...");
+	}
+	@Override
+	public void sobreOAnimal()
+	{
+		System.out.println("O nome do cachorro é: "+this.nome);
+		System.out.println("A idade do cachorro é: "+this.idade+" ano(s)");
+	}
+	
 }
+

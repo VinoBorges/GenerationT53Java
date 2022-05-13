@@ -9,7 +9,17 @@ public class Ex1Preguiça extends Ex1Animal{
 
 	public void subirEmArvore()
 	{
-		System.out.println("A preguiça está subindo na árvore...");
+		System.out.println(this.nome + " está subindo na árvore...");
 	}
-	
+	@Override
+	public void emitirSom()
+	{
+		System.out.println(this.nome + " está se espreguiçando...");
+	}	
+	@Override
+	public void sobreOAnimal()
+	{
+		System.out.println("O nome da preguiça é: "+this.nome);
+		System.out.println("A idade da preguiça é: "+this.idade+" ano(s)");
+	}
 }

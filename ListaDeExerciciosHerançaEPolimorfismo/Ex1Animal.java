@@ -13,7 +13,7 @@ public class Ex1Animal {
 	
 	public void emitirSom()
 	{
-		System.out.println("O animal está emitindo som "+this.somDoAnimal);
+		System.out.println("O animal está emitindo som ");
 	}	
 	
 	public void sobreOAnimal()

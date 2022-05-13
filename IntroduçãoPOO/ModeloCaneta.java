@@ -3,11 +3,36 @@ package IntroduçãoPOO;
 public class ModeloCaneta {
 	
 	//CARACTERISTICAS  -> ATRIBUTOS, possui variáveis, definir os relevantes para tal situação
-	public String cor;
-	public double ponta;
-	public int carga;
-	public boolean tampada;
+	private String cor;
+	private double ponta;
+	private int carga;
+	private boolean tampada;
 	
+	//METODOS ACESSORES(gets) e MODIFICADORES(sets)
+	public String getCor() {
+		return cor;
+	}
+
+	public void setCor(String cor) {
+		this.cor = cor;
+	}
+
+	public double getPonta() {
+		return ponta;
+	}
+
+	public void setPonta(double ponta) {
+		this.ponta = ponta;
+	}
+
+	public int getCarga() {
+		return carga;
+	}
+
+	public void setCarga(int carga) {
+		this.carga = carga;
+	}
+
 	//MÉTODO CONSTRUTOR -> como quero que seja criado o objeto "padrão"
 	//entre parenteses escrever os parâmetros que o metodo recebe, usado dentro do metodo construtor para criar o objeto
 	public ModeloCaneta()//se colocar os parâmetros, é obrigado a colocar quando for criar o objeto também
@@ -15,6 +40,8 @@ public class ModeloCaneta {
 		this.carga=100;
 		this.tampada=true;						
 	}
+	
+	
 	
 		
 	

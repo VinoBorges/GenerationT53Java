@@ -13,7 +13,17 @@ public class Ex1Cavalo extends Ex1Animal {
 	
 	public void correr()
 	{
-		System.out.println("O cavalo está correndo...");
+		System.out.println(this.nome+" está correndo...");
 	}
-	
+	@Override
+	public void emitirSom()
+	{
+		System.out.println(this.nome+" está relinchando...");
+	}	
+	@Override
+	public void sobreOAnimal()
+	{
+		System.out.println("O nome do cavalo é: "+this.nome);
+		System.out.println("A idade do cavalo é: "+this.idade+" ano(s)");
+	}
 }
