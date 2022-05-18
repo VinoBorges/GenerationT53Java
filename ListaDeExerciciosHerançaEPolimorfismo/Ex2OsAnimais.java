@@ -28,10 +28,7 @@ public class Ex2OsAnimais  {
 		preguiça.sobreOAnimal();
 		preguiça.subirEmArvore();
 		preguiça.emitirSom();
-		
 				
-		
-		
 	}
 
 }
